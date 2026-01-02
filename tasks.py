@@ -7,6 +7,7 @@ parser.add_argument("-p", "--priority")
 
 args = parser.parse_args()
 
-item = args.add
+task = args.add
+priority = args.priority
 
-print(f"Adding {item}...\nDone!")
+print(f"Adding task '{task}' with priority '{priority}'")
